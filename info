@@ -1,0 +1,19 @@
+name_english Vietnamese
+name_native Việt ngữ
+lang vi
+data-file tcvn3.cset
+data-file tcvn3.cmap
+data-file viscii.cset
+data-file viscii.cmap
+author:
+  name Ho Ngoc Duc
+  name-native Hồ Ngọc Đức
+  email duc at informatik uni-leipzig de
+copyright GPL
+version 0.01.1-1
+complete true
+accurate unknown
+alias vi viet
+dict:
+  name vi
+  add vi
