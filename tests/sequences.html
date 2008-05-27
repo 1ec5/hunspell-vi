@@ -48,6 +48,9 @@
     </script>
 </head>
 <body>
+    <h1>Sequences</h1>
+    <p>This tool automatically converts whitespace-delimited Vietnamese words from using the new-style placement of diacritics to the old style. In order for this tool to work, you&rsquo;ll need to copy a <a href="http://version.1ec5.org/viewvc.cgi/avim/trunk/chrome/content/avim.js?view=markup&amp;pathrev=24">recent version of <acronym title="Advanced Vietnamese Input Method">AVIM</acronym></a> to this directory, naming it <code>avim.js</code>.</p>
+    <p>Enter the original word list into the <label for="words">Words</label> textbox; then, press <label for="convert">Convert</label>, go run some errands, and come back to see the old-style equivalents in the <label for="results">Results</label> box. Each word in the list should be separated by whitespace. No words may contain more than one consecutive space.</p>
     <form action="" method="get">
         <label for="sequences">Sequences:</label><br />
         <textarea id="sequences" readonly="readonly" rows="20" cols="80">a	a
@@ -179,7 +182,7 @@ z	z</textarea><br />
         <textarea id="words" rows="20" cols="80"></textarea><br />
         <button id="convert" type="button" onclick="convertToOld();">Convert</button>
         <hr />
-        <label for="result">Result:</label><br />
+        <label for="result">Results:</label><br />
         <textarea id="results" rows="20" cols="80"></textarea>
     </form>
     <script type="text/javascript" src="avim.js"></script>
