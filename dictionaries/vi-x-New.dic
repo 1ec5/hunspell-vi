@@ -1,4 +1,4 @@
-6593
+6592
 a
 ai
 am
@@ -407,6 +407,7 @@ choạng
 choạp
 choảng
 choắt
+choẹ
 choẹt
 chu
 chua
@@ -436,6 +437,7 @@ chuộc
 chuội
 chuộng
 chuột
+chuỳ
 chà
 chài
 chàm
@@ -507,7 +509,6 @@ chùi
 chùm
 chùn
 chùng
-chùy
 chú
 chúa
 chúc
@@ -627,7 +628,6 @@ chịt
 chịu
 chọ
 chọc
-chọe
 chọi
 chọn
 chọt
@@ -979,6 +979,7 @@ doá
 doãi
 doãn
 doãng
+doạ
 du
 dua
 dun
@@ -1135,7 +1136,6 @@ dịch
 dịp
 dịt
 dịu
-dọa
 dọc
 dọi
 dọn
@@ -1570,6 +1570,7 @@ hoác
 hoán
 hoáy
 hoãn
+hoè
 hoét
 hoăm
 hoăng
@@ -1589,6 +1590,7 @@ hoắt
 hoẳn
 hoẵng
 hoặc
+hoẹ
 hoẹt
 hoẻn
 hu
@@ -1668,7 +1670,6 @@ hích
 híp
 hít
 hò
-hòe
 hòi
 hòm
 hòn
@@ -1784,7 +1785,6 @@ hỉnh
 hịch
 họ
 học
-họe
 họng
 họp
 hỏi
@@ -1923,6 +1923,7 @@ khoắn
 khoắng
 khoắt
 khoằm
+khoẻ
 khu
 khua
 khui
@@ -2064,7 +2065,6 @@ khỉnh
 khịa
 khịt
 khọm
-khỏe
 khỏi
 khỏng
 khố
@@ -2973,6 +2973,7 @@ ngoáy
 ngoã
 ngoãn
 ngoèo
+ngoé
 ngoéo
 ngoét
 ngoại
@@ -3001,6 +3002,7 @@ nguẩy
 nguồi
 nguồn
 nguội
+nguỵ
 nguỷu
 ngà
 ngài
@@ -3037,7 +3039,6 @@ ngòn
 ngòng
 ngó
 ngóc
-ngóe
 ngói
 ngóm
 ngón
@@ -3160,7 +3161,6 @@ ngụa
 ngục
 ngụm
 ngụp
-ngụy
 ngủ
 ngủi
 ngủn
@@ -3215,9 +3215,12 @@ nhong
 nhoà
 nhoài
 nhoàm
+nhoá
 nhoáng
 nhoáy
+nhoè
 nhoèn
+nhoé
 nhoét
 nhoạng
 nhoẹt
@@ -3234,6 +3237,7 @@ nhuệ
 nhuốc
 nhuốm
 nhuộm
+nhuỵ
 nhà
 nhài
 nhàm
@@ -3284,12 +3288,9 @@ nhíp
 nhít
 nhíu
 nhò
-nhòe
 nhòm
 nhó
-nhóa
 nhóc
-nhóe
 nhói
 nhóm
 nhón
@@ -3442,7 +3443,6 @@ nhục
 nhụi
 nhụng
 nhụt
-nhụy
 nhủ
 nhủi
 nhủn
@@ -3701,6 +3701,7 @@ oe
 oi
 om
 ong
+oà
 oàm
 oàng
 oành
@@ -4386,6 +4387,7 @@ suyễn
 suê
 suôn
 suông
+suý
 suýt
 suất
 suối
@@ -4455,7 +4457,6 @@ sún
 súng
 súp
 sút
-súy
 săm
 săn
 săng
@@ -4663,7 +4664,9 @@ thoi
 thom
 thon
 thong
+thoà
 thoàn
+thoá
 thoái
 thoán
 thoáng
@@ -4755,12 +4758,10 @@ thính
 thíp
 thít
 thò
-thòa
 thòi
 thòm
 thòng
 thó
-thóa
 thóc
 thói
 thóp
@@ -4971,6 +4972,7 @@ toán
 toáng
 toát
 toáy
+toè
 toèn
 toé
 toét
@@ -4980,6 +4982,7 @@ toạc
 toại
 toả
 toẹt
+toẻ
 toẽ
 tra
 trai
@@ -5261,6 +5264,7 @@ tuổi
 tuộc
 tuột
 tuỳ
+tuỵ
 tuỷ
 ty
 tà
@@ -5319,7 +5323,6 @@ típ
 tít
 tíu
 tò
-tòe
 tòi
 tòm
 tòn
@@ -5456,7 +5459,6 @@ tọng
 tọp
 tọt
 tỏ
-tỏe
 tỏi
 tỏm
 tỏng
@@ -5495,7 +5497,6 @@ tụi
 tụm
 tụng
 tụt
-tụy
 tủ
 tủa
 tủi
@@ -5829,15 +5830,18 @@ xoác
 xoát
 xoáy
 xoã
+xoè
 xoèn
 xoét
 xoăn
 xoạc
 xoạch
 xoạng
+xoả
 xoải
 xoảng
 xoắn
+xoẹ
 xoẹt
 xu
 xua
@@ -5854,6 +5858,7 @@ xuân
 xuây
 xuê
 xuôi
+xuý
 xuýt
 xuất
 xuẩn
@@ -5864,6 +5869,7 @@ xuệch
 xuống
 xuồng
 xuổng
+xuỳ
 xuỵt
 xà
 xài
@@ -5909,11 +5915,9 @@ xích
 xính
 xít
 xíu
-xòe
 xòm
 xòng
 xó
-xóa
 xóc
 xói
 xóm
@@ -5931,7 +5935,6 @@ xù
 xùi
 xùm
 xùng
-xùy
 xú
 xúc
 xúi
@@ -5939,7 +5942,6 @@ xúm
 xúng
 xúp
 xút
-xúy
 xăm
 xăn
 xăng
@@ -6015,10 +6017,8 @@ xịt
 xịu
 xọ
 xọc
-xọe
 xọp
 xỏ
-xỏa
 xỏng
 xố
 xốc
@@ -6112,7 +6112,6 @@ yểu
 ín
 ít
 ò
-òa
 òi
 òm
 òng
@@ -6188,6 +6187,7 @@ yểu
 đoái
 đoán
 đoãng
+đoạ
 đoạn
 đoạt
 đoản
@@ -6383,7 +6383,6 @@ yểu
 địt
 địu
 đọ
-đọa
 đọc
 đọi
 đọn
