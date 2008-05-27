@@ -1,4 +1,4 @@
-6623
+6592
 a
 ai
 am
@@ -393,13 +393,11 @@ choi
 chong
 choài
 choàng
-chóa
 choái
 choán
 choáng
 choãi
 choèn
-chóe
 choòng
 choăn
 choạc
@@ -490,6 +488,7 @@ chòi
 chòm
 chòng
 chó
+chóa
 chóc
 chóe
 chói
@@ -976,7 +975,6 @@ dom
 don
 dong
 doành
-dóa
 doãi
 doãn
 doãng
@@ -1378,7 +1376,6 @@ giựt
 go
 gom
 gon
-góa
 goòng
 gram
 gu
@@ -1417,6 +1414,7 @@ gích
 gíp
 gò
 gòn
+góa
 góc
 gói
 góp
@@ -1562,12 +1560,10 @@ hoi
 hom
 hon
 hong
-hòa
 hoài
 hoàn
 hoàng
 hoành
-hóa
 hoác
 hoán
 hoáy
@@ -1575,13 +1571,11 @@ hoãn
 hoét
 hoăm
 hoăng
-họa
 hoạch
 hoại
 hoạn
 hoạnh
 hoạt
-hỏa
 hoải
 hoảng
 hoảnh
@@ -1609,7 +1603,6 @@ huyệt
 huân
 huê
 huênh
-húy
 huých
 huýt
 huơ
@@ -1620,7 +1613,6 @@ huệ
 huống
 huỳnh
 huỵch
-hủy
 hà
 hài
 hàm
@@ -1700,6 +1692,7 @@ húi
 húng
 húp
 hút
+húy
 hăm
 hăng
 hĩm
@@ -1908,7 +1901,6 @@ khoe
 khoeo
 khom
 khoào
-khóa
 khoác
 khoái
 khoán
@@ -1916,11 +1908,9 @@ khoáng
 khoát
 khoáy
 khoèo
-khóe
 khoét
 khoăm
 khoăn
-khỏa
 khoải
 khoản
 khoảng
@@ -2073,6 +2063,7 @@ khỉnh
 khịa
 khịt
 khọm
+khỏa
 khỏe
 khỏi
 khỏng
@@ -2183,8 +2174,8 @@ kịch
 kịp
 kịt
 kỳ
-kỹ
 kỵ
+kỹ
 la
 lai
 lam
@@ -2239,15 +2230,12 @@ lom
 lon
 long
 loong
-lòa
 loài
 loàn
 loàng
 loáng
 loát
 loãng
-lòe
-lóe
 loét
 loăng
 loạc
@@ -2284,8 +2272,6 @@ luồng
 luỗng
 luộc
 luộm
-lụy
-lũy
 ly
 là
 lài
@@ -2984,7 +2970,6 @@ ngoách
 ngoái
 ngoáo
 ngoáy
-ngõa
 ngoãn
 ngoèo
 ngoéo
@@ -3063,6 +3048,7 @@ ngôi
 ngôn
 ngông
 ngõ
+ngõa
 ngõi
 ngõng
 ngùi
@@ -3226,7 +3212,6 @@ nhoen
 nhoi
 nhom
 nhong
-nhòa
 nhoài
 nhoàm
 nhoáng
@@ -3724,7 +3709,6 @@ oách
 oái
 oán
 oát
-óe
 oăm
 oăng
 oạch
@@ -3737,8 +3721,6 @@ oằn
 oẳn
 oẳng
 oặt
-ọe
-ỏe
 pa
 palăng
 pan
@@ -4062,11 +4044,11 @@ quờ
 quở
 quỳ
 quỳnh
+quỵ
 quỵt
 quỷ
 quỷnh
 quỹ
-quỵ
 ra
 rai
 ram
@@ -4086,7 +4068,6 @@ rim
 rin
 rinh
 riu
-rìa
 riêng
 riêu
 riết
@@ -4152,6 +4133,7 @@ rê
 rên
 rêu
 rì
+rìa
 rình
 rìu
 rí
@@ -4381,11 +4363,11 @@ soi
 son
 song
 soong
-sòa
 soài
 soái
 soán
 soát
+soóc
 soạn
 soạng
 soạt
@@ -4445,6 +4427,7 @@ sình
 sính
 sít
 sò
+sòa
 sòi
 sòm
 sòng
@@ -4453,7 +4436,6 @@ sói
 sóm
 són
 sóng
-soóc
 sót
 sô
 sôi
@@ -4686,7 +4668,6 @@ thoát
 thoăn
 thoại
 thoạt
-thỏa
 thoải
 thoảng
 thoắng
@@ -4702,7 +4683,6 @@ thuyết
 thuyền
 thuê
 thuôn
-thúy
 thuơng
 thuần
 thuẫn
@@ -4719,9 +4699,6 @@ thuỗn
 thuộc
 thuộm
 thuở
-thùy
-thụy
-thủy
 thà
 thài
 thàm
@@ -4981,7 +4958,6 @@ ton
 tong
 toong
 tout
-tòa
 toài
 toàn
 toàng
@@ -4992,15 +4968,11 @@ toáng
 toát
 toáy
 toèn
-tóe
 toét
 toòng
-tọa
 toạc
 toại
-tỏa
 toẹt
-tõe
 tra
 trai
 tram
@@ -5042,7 +5014,6 @@ truất
 truật
 truồng
 truột
-trụy
 trà
 trài
 tràm
@@ -5267,7 +5238,6 @@ tuyệt
 tuân
 tuôn
 tuông
-túy
 tuấn
 tuất
 tuần
@@ -5281,8 +5251,6 @@ tuồng
 tuổi
 tuộc
 tuột
-tùy
-tủy
 ty
 tà
 tài
@@ -5340,6 +5308,7 @@ típ
 tít
 tíu
 tò
+tòa
 tòe
 tòi
 tòm
@@ -5357,6 +5326,7 @@ tôi
 tôm
 tôn
 tông
+tõe
 tõm
 tù
 tùm
@@ -5475,11 +5445,13 @@ tịch
 tịnh
 tịt
 tịu
+tọa
 tọc
 tọng
 tọp
 tọt
 tỏ
+tỏa
 tỏe
 tỏi
 tỏm
@@ -5546,7 +5518,6 @@ uy
 uyên
 uyển
 uôm
-úy
 uất
 uẩn
 uẩy
@@ -5559,7 +5530,6 @@ uột
 uở
 uỳnh
 uỵch
-ủy
 va
 vai
 van
@@ -5843,17 +5813,14 @@ xom
 xon
 xong
 xoong
-xòa
 xoài
 xoàm
 xoàn
 xoàng
 xoành
-xóa
 xoác
 xoát
 xoáy
-xõa
 xoèn
 xoét
 xoăn
@@ -5951,6 +5918,7 @@ xôi
 xôm
 xôn
 xông
+xõa
 xõm
 xõng
 xù
@@ -6212,7 +6180,6 @@ yểu
 đoàn
 đoàng
 đoành
-đóa
 đoái
 đoán
 đoãng
@@ -6285,6 +6252,7 @@ yểu
 đòn
 đòng
 đó
+đóa
 đóc
 đói
 đóm
@@ -6567,6 +6535,7 @@ yểu
 ọi
 ọp
 ọt
+ỏe
 ỏi
 ỏm
 ỏn
