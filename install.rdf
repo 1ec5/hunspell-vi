@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file copyright (c) 2007-2008 Minh Nguyen.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns:NC="http://home.netscape.com/NC-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>dictionary@vi.mozdev.org</em:id>
+		<em:name>Vietnamese Dictionary</em:name>
+		<em:version>1.0</em:version>
+		<em:creator>Minh Nguyen</em:creator>
+		<em:developer>Ivan Garcia</em:developer>
+		<em:contributor>Hồ Ngọc Đức</em:contributor>
+		<em:description>Enables spell-checking in Vietnamese, using a wordlist based on Hồ Ngọc Đức’s Free Vietnamese Dictionary Project.</em:description>
+		<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+		
+		<!-- Spanish -->
+		<em:localized>
+			<Description>
+				<em:locale>es</em:locale>
+				<em:name>Diccionario de Vietnamita</em:name>
+				<em:description>Comprobar la ortografía de texto vietnamita, usando una lista de palabras basada en el proyecto Free Vietnamese Dictionary Project de Hồ Ngọc Đức.</em:description>
+				<em:creator>Minh Nguyen</em:creator>
+				<em:developer>Iván García</em:developer>
+				<em:contributor>Hồ Ngọc Đức</em:contributor>
+				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+			</Description>
+		</em:localized>
+		
+		<!-- Vietnamese -->
+		<em:localized>
+			<Description>
+				<em:locale>vi</em:locale>
+				<em:name>Từ điển tiếng Việt</em:name>
+				<em:description>Kiểm tra chính tả tiếng Việt, dùng danh sách từ dựa trên dự án Free Vietnamese Dictionary Project của Hồ Ngọc Đức.</em:description>
+				<em:creator>Nguyễn Xuân Minh</em:creator>
+				<em:developer>Ivan Garcia</em:developer>
+				<em:contributor>Hồ Ngọc Đức</em:contributor>
+				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+			</Description>
+		</em:localized>
+		
+		<!-- Mozilla Firefox -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>2.0pre</em:minVersion>
+				<em:maxVersion>3.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Mozilla Thunderbird -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+				<em:minVersion>2.0pre</em:minVersion>
+				<em:maxVersion>3.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- SeaMonkey -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>1.1</em:minVersion>
+				<em:maxVersion>2.0a1pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
