@@ -3,7 +3,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>dictionary@vi.mozdev.org</em:id>
 		<em:name>Vietnamese Dictionary</em:name>
-		<em:version>1.0</em:version>
+		<em:version>1.0.0.{$Rev$}</em:version>
 		<em:creator>Minh Nguyen</em:creator>
 		<em:developer>Ivan Garcia</em:developer>
 		<em:contributor>Hồ Ngọc Đức</em:contributor>

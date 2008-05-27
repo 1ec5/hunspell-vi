@@ -3,8 +3,9 @@
 APP_NAME=vi_dictionary
 CHROME_PROVIDERS=
 CLEAN_UP=1
-ROOT_FILES=
+ROOT_FILES="LICENSE"
 ROOT_DIRS="dictionaries"
+VAR_FILES="install.rdf"
 #'*CVS*'
 PRUNE_DIRS="*.svn*"
 BEFORE_BUILD=
