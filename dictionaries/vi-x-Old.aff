@@ -1,16 +1,18 @@
 SET UTF-8
 TRY aAàÀảẢãÃáÁạẠăĂằẰẳẲẵẴắẮặẶâÂầẦẩẨẫẪấẤậẬbBcCdDđĐeEèÈẻẺẽẼéÉẹẸêÊềỀểỂễỄếẾệỆfFgGhHiIìÌỉỈĩĨíÍịỊjJkKlLmMnNoOòÒỏỎõÕóÓọỌôÔồỒổỔỗỖốỐộỘơƠờỜởỞỡỠớỚợỢpPqQrRsStTuUùÙủỦũŨúÚụỤưƯừỪửỬữỮứỨựỰvVwWxXyYỳỲỷỶỹỸýÝỵỴzZ
 
-REP 154
+REP 156
 REP f ph
 REP dz d
 REP uo ườ
 REP uo ướ
+REP uo ưỡ
+REP uo ưở
 REP uo ượ
 REP a à
-REP A À 
+REP A À
 REP a ả
-REP A Ả 
+REP A Ả
 REP a ã
 REP A Ã
 REP a á
