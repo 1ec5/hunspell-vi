@@ -36,6 +36,7 @@ CLEAN_UP=          # delete the jar / "files" when done?       (1/0)
 ROOT_FILES=        # put these files in root of xpi (space separated list of leaf filenames)
 ROOT_DIRS=         # ...and these directories       (space separated list)
 VAR_FILES=         # files that need variable substitution (space separated list)
+VERSION=           # version number (string)
 PRUNE_DIRS=	       # exclude files with these directories in their paths (space separated list)
 BEFORE_BUILD=      # run this before building       (bash command)
 AFTER_BUILD=       # ...and this after the build    (bash command)
@@ -103,12 +104,14 @@ cd $TMP_DIR
 if [ -n "$VAR_FILES" ]; then
   REV_DATE=`date -u '+%A, %B %e, %Y'`
   REV_YEAR=`date -u '+%Y'`
-  echo "Substituting variables for r""$REV_NUM on $REV_DATE..."
+  echo "Substituting variables for version $VERSION, build r$REV_NUM on \
+$REV_DATE..."
   for VAR_FILE in $VAR_FILES; do
     if [ -f $VAR_FILE ]; then
-      perl -pi -e "s/\x24Rev\x24/$REV_NUM/" $VAR_FILE
-      perl -pi -e "s/\x24Date\x24/$REV_DATE/" $VAR_FILE
-      perl -pi -e "s/\x24Year\x24/$REV_YEAR/" $VAR_FILE
+      perl -pi -e "s/\x24\x7BRev\x7D/$REV_NUM/" $VAR_FILE
+      perl -pi -e "s/\x24\x7BVersion\x7D/$VERSION/" $VAR_FILE
+      perl -pi -e "s/\x24\x7BDate\x7D/$REV_DATE/" $VAR_FILE
+      perl -pi -e "s/\x24\x7BYear\x7D/$REV_YEAR/" $VAR_FILE
     fi
   done
 fi

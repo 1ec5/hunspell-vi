@@ -3,7 +3,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>dictionary@vi.mozdev.org</em:id>
 		<em:name>Vietnamese Dictionary</em:name>
-		<em:version>1.0.0.{$Rev$}</em:version>
+		<em:version>${Version}</em:version>
 		<em:creator>Minh Nguyen</em:creator>
 		<em:developer>Ivan Garcia</em:developer>
 		<em:contributor>Hồ Ngọc Đức</em:contributor>
@@ -40,7 +40,7 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>3.0pre</em:minVersion>
+				<em:minVersion>2.0pre</em:minVersion>
 				<em:maxVersion>3.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
@@ -58,7 +58,7 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
-				<em:minVersion>2.0pre</em:minVersion>
+				<em:minVersion>1.1pre</em:minVersion>
 				<em:maxVersion>2.0a1pre</em:maxVersion>
 			</Description>
 		</em:targetApplication>
