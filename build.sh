@@ -41,7 +41,7 @@ PRUNE_DIRS=	       # exclude files with these directories in their paths (space 
 BEFORE_BUILD=      # run this before building       (bash command)
 AFTER_BUILD=       # ...and this after the build    (bash command)
 
-REV_NUM=`svnversion -n | cat`
+REV_NUM=24
 
 if [ -z $1 ]; then
   . ./config_build.sh
