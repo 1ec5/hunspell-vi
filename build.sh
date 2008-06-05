@@ -7,6 +7,7 @@
 # This script assumes the following directory structure:
 # ./
 #   chrome.manifest (optional - for newer extensions)
+#   install.js
 #   install.rdf
 #   (other files listed in $ROOT_FILES)
 #
@@ -92,7 +93,7 @@ for DIR in $ROOT_DIRS; do
 done
 
 # Copy other files to the root of future XPI.
-for ROOT_FILE in $ROOT_FILES install.rdf chrome.manifest; do
+for ROOT_FILE in $ROOT_FILES install.rdf install.js chrome.manifest; do
   cp -v $ROOT_FILE $TMP_DIR
   if [ -f $ROOT_FILE ]; then
     echo $ROOT_FILE >> files
