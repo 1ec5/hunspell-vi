@@ -84,8 +84,8 @@ done
 # prepare components and defaults
 echo "Copying various files to $TMP_DIR folder..."
 for DIR in $ROOT_DIRS; do
-  cp -rpv $DIR $TMP_DIR/$DIR
-  rm -rf `find $TMP_DIR/$DIR \( -name ".svn" -type d \) -o \( -name ".DS_Store" -type f \)`
+  cp -rpv $DIR $TMP_DIR/
+  rm -rf `find $TMP_DIR/ \( -name ".svn" -type d \) -o \( -name ".DS_Store" -type f \)`
 #  mkdir $TMP_DIR/$DIR
 #  FILES="`find $DIR -path '*CVS*' -prune -o -type f -print | grep -v \~`"
 #  echo $FILES >> files
