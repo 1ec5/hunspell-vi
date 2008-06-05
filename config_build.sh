@@ -5,7 +5,7 @@ CHROME_PROVIDERS=
 CLEAN_UP=1
 ROOT_FILES="CHANGELOG LICENSE gpl.txt"
 ROOT_DIRS="dictionaries"
-VAR_FILES="install.rdf CHANGELOG"
+VAR_FILES="install.rdf install.js CHANGELOG"
 VERSION="1.0.1.$REV_NUM"
 #'*CVS*'
 PRUNE_DIRS="*.svn*"
