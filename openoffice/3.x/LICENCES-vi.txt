@@ -1,0 +1,12 @@
+(to be translated into vietnamese)
+Authors:
+Ivan Garcia <capiscuas@gmail.com>
+Minh Nguyen
+
+using the Vietnamese Dictionary list and rules from Hồ Ngọc Đức
+
+Project: http://code.google.com/p/hunspell-spellcheck-vi/
+
+Collaborators:
+
+This spellchecker is released as  GPLv3 license <http://www.gnu.org/licenses/>.
