@@ -5,30 +5,27 @@ TMP_DIR=build
 REV_NUM=`svn info -R|grep '^Last Changed Rev'|sort -nr|head -1|cut -f 4 -d" "`
 VERSION=1.$REV_NUM
 APP_NAME=vi_spellchecker_OOo3
-ROOT_DIRS=" META-INF"
+
 ROOT_FILES="description.xml dictionaries.xcu LICENCES-vi.txt LICENSES-en.txt "
-VAR_FILES=description.xml
+VAR_FILES="description.xml dictionaries.xcu LICENCES-vi.txt LICENSES-en.txt "
 #uncomment to debug
 #set -x
 
 # remove any left-over files from previous build
-rm -f $APP_NAME.xpi
+rm $APP_NAME.oxt
 rm -rf $TMP_DIR
 
 # prepare components and defaults
 echo "Copying various files to $TMP_DIR folder..."
-for DIR in $ROOT_DIRS; do
-  cp -rpv $DIR $TMP_DIR/
-  rm -rf `find $TMP_DIR/ \( -name ".svn" -type d \) -o \( -name ".DS_Store" -type f \)`
-done
 
-# Copy other files to the root of future XPI.
+mkdir -p $TMP_DIR/dictionaries
+mkdir -p $TMP_DIR/META-INF
+
 for ROOT_FILE in $ROOT_FILES ; do
   cp -v $ROOT_FILE $TMP_DIR
 done
 
-mkdir $TMP_DIR/dictionaries
-
+cp META-INF/manifest.xml $TMP_DIR/META-INF/manifest.xml
 cp ../../dictionaries/vi-x-New.dic $TMP_DIR/dictionaries/vi_VN.dic 
 cp ../../dictionaries/vi-x-New.aff  $TMP_DIR/dictionaries/vi_VN.aff 
 cp ../../dictionaries/CHANGELOG  $TMP_DIR/dictionaries/CHANGELOG
@@ -49,7 +46,6 @@ fi
 
 # generate the OXT  file
 echo "Generating $APP_NAME.oxt..."
-rm ../$APP_NAME.oxt
 zip -r ../$APP_NAME.oxt *
 
 cd "$ROOT_DIR"
