@@ -39,8 +39,8 @@
         entry for each language it implements and one default English entry.
         The default entry is the one listed first. -->
     <display-name>
-        <name lang="en">Vietnamese spellchecker dictionary for OpenOffice.org</name>
-	<name lang="vi">Bộ kiểm tra chính tả tiếng Việt của OpenOffice.org</name>
+        <name lang="en">Vietnamese spellchecker dictionary</name>
+	<name lang="vi">Bộ kiểm tra chính tả tiếng Việt</name>
 	<name lang="de">Wörterbuch Vietnamesisch</name>
 	<name lang="es">Corrector Ortográfico para el Vietnamita</name>
 	<name lang="fr">Correcteur Orthographique Vietnamien</name>

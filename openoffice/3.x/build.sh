@@ -3,7 +3,7 @@
 ROOT_DIR=`pwd`
 TMP_DIR=build
 REV_NUM=`svn info -R|grep '^Last Changed Rev'|sort -nr|head -1|cut -f 4 -d" "`
-VERSION=1.$REV_NUM
+VERSION=1.0.$REV_NUM
 APP_NAME=vi_spellchecker_OOo3
 
 ROOT_FILES="description.xml dictionaries.xcu LICENCES-vi.txt LICENSES-en.txt "
