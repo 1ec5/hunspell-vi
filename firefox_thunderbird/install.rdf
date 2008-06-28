@@ -14,7 +14,7 @@
 		<em:localized>
 			<Description>
 				<em:locale>fr</em:locale>
-				<em:name>Dictionnaire Vietnamien</em:name>
+				<em:name>Correcteur Orthographique Vietnamien</em:name>
 			</Description>
 		</em:localized>
 		
@@ -30,7 +30,7 @@
 		<em:localized>
 			<Description>
 				<em:locale>es</em:locale>
-				<em:name>Diccionario de Vietnamita</em:name>
+				<em:name>Corrector Ortográfico para el Vietnamita</em:name>
 				<em:description>Comprobar la ortografía de texto vietnamita, usando una lista de palabras basada en el proyecto Free Vietnamese Dictionary Project de Hồ Ngọc Đức.</em:description>
 				<em:creator>Minh Nguyen</em:creator>
 				<em:developer>Iván García</em:developer>

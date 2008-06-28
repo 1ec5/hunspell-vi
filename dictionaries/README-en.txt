@@ -13,5 +13,5 @@ GNU Aspell 0.60 Vietnamese (Việt ngữ) Dictionary Package
 Version 0.01.1-1
 2004-08-24
 Original Word List By:
-  Ho Ngoc Duc (Hồ Ngọc Đức) <duc at informatik uni-leipzig de>
+ Hồ Ngọc Đức <duc at informatik uni-leipzig de>
 Copyright Terms: GPL (see the file Copyright for the exact terms)
