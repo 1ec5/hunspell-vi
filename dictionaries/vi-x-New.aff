@@ -1,7 +1,7 @@
 SET UTF-8
 TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'-
 
-MAP 14
+MAP 18
 MAP aàảãáạăằẳẵắặâầẩẫấậ
 MAP AÀẢÃÁẠĂẰẲẴẮẶÂẦẨẪẤẬ
 MAP dđ
@@ -16,28 +16,12 @@ MAP uùủũúụưừửữứự
 MAP UÙỦŨÚỤƯỪỬỮỨỰ
 MAP yỳỷỹýỵ
 MAP YỲỶỸÝỴ
+MAP óòỏaàáả
+MAP óóỏeèéẻ
+MAP úùủụyýỳỷỵ
+MAP uưoờớỡởợ
 
-REP 32
-REP óa oá
-REP óe oé
-REP úy uý
-REP òa oà
-REP òe oè
-REP ùy uỳ
-REP õa oã
-REP õe oẽ
-REP ũy uỹ
-REP ỏa oả
-REP ỏe oẻ
-REP ủy uỷ
-REP ọa oạ
-REP ọe oẹ
-REP ụy uỵ
-REP uo ườ
-REP uo ướ
-REP uo ưỡ
-REP uo ưở
-REP uo ượ
+REP 12
 REP ch tr
 REP d gi
 REP dz d
