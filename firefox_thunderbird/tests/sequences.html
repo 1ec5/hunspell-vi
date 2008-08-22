@@ -3,9 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Sequences</title>
+    <script type="text/javascript" src="http://avim.veneroida.com/pro/avim.js"></script>
     <script type="text/javascript" src="http://mudim.googlecode.com/svn/trunk/mudim/mudim.js"></script>
     <script type="text/javascript">
     <!--
+        if (window.AVIMGlobalConfig) {
+            AVIMGlobalConfig.controlCSS =
+                "http://avim.veneroida.com/pro/avim.css";
+            AVIMGlobalConfig.onOff = 0;
+        }
+        
+        if (window.Mudim && parseInt(Mudim.method)) Mudim.Toggle();
+        
         function clear() {
             var startBox = document.getElementById("startTime");
             var endBox = document.getElementById("endTime");
