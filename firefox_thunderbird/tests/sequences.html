@@ -3,9 +3,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Sequences</title>
+    <script type="text/javascript" src="http://mudim.googlecode.com/svn/trunk/mudim/mudim.js"></script>
     <script type="text/javascript">
     <!--
+        function clear() {
+            var startBox = document.getElementById("startTime");
+            var endBox = document.getElementById("endTime");
+            var diffBox = document.getElementById("diffTime");
+            var resultsBox = document.getElementById("results");
+            
+            startBox.value = endBox.value = diffBox.value = "";
+            resultsBox.value = "";
+            delete startBox.date, endBox.date, diffBox.date;
+        }
+        
+        function markTime() {
+            var startBox = document.getElementById("startTime");
+            var endBox = document.getElementById("endTime");
+            var diffBox = document.getElementById("diffTime");
+            
+            var date = new Date();
+            if (!startBox.value) {
+                startBox.value = date.toTimeString();
+                startBox.date = date;
+            }
+            endBox.value = date.toTimeString();
+            endBox.date = date;
+            diffBox.value = (endBox.date - startBox.date) / 1000;
+        }
+        
         function convertToOld() {
+            clear();
+            markTime();
+            
             var seqsBox = document.getElementById("sequences");
             var chars = seqsBox.value.split("\n");
             var seqs = {};
@@ -17,7 +47,6 @@
             var words = wordsBox.value.toLowerCase().split(/\s+/);
             
             var resultsBox = document.getElementById("results");
-            resultsBox.value = "";
             resultsBox.focus();
             for each (var word in words) {
                 for each (var letter in word) {
@@ -32,16 +61,13 @@
                         e.initKeyEvent("keypress", true, true, null, false,
                                        false, false, false, 0, pt.charCodeAt());
                         resultsBox.dispatchEvent(e);
-                        
-//                        var e = new Object();
-//                        e.target = document.getElementById("results");
-//                        e.which = pt.charCodeAt();
-//                        e.ctrlKey = e.altKey = false;
-//                        AVIMObj.keyPressHandler(e);
                     }
                 }
                 resultsBox.value += "\n";
+                if (CHIM) CHIM.ClearBuffer();
             }
+            
+            markTime();
             return false;
         }
     -->
@@ -183,8 +209,13 @@ z	z</textarea><br />
         <button id="convert" type="button" onclick="convertToOld();">Convert</button>
         <hr />
         <label for="result">Results:</label><br />
-        <textarea id="results" rows="20" cols="80"></textarea>
+        <textarea id="results" rows="20" cols="80"></textarea><br />
+        <label for="startTime">Start time:</label>&nbsp;<input id="startTime" type="text" />
+        <label for="endTime">End time:</label>&nbsp;<input id="endTime" type="text" />
+        <label for="diffTime">Time elapsed:</label>&nbsp;<input id="diffTime" type="text" />&nbsp;<abbr title="seconds">s</abbr>
     </form>
+    <br />
+    <br />
     <script type="text/javascript" src="avim.js"></script>
 </body>
 </html>
