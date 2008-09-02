@@ -1,5 +1,5 @@
 SET UTF-8
-TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'-
+TRY naohiugtcedmylrbvskpxqfjwzNAOHIUGTCEDMYLRBVSKPXQFJWZ-
 
 MAP 18
 MAP aàảãáạăằẳẵắặâầẩẫấậ
@@ -21,16 +21,21 @@ MAP óóỏeèéẻ
 MAP úùủụyýỳỷỵ
 MAP uưoờớỡởợ
 
-REP 12
-REP ch tr
-REP d gi
+REP 17
 REP dz d
-REP f ph
-REP g gh
 REP gh g
 REP gi d
-REP ng ngh
 REP ngh ng
+REP ch tr
+REP d gi
+REP f ph
+REP g gh
+REP j g
+REP ng ngh
+REP ou uo
+REP uo ou
 REP s x
 REP tr ch
 REP x s
+REP w qu
+REP z d
