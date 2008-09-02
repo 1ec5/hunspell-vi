@@ -19,6 +19,7 @@
 				<em:creator>Minh Nguyen</em:creator>
 				<em:developer>Iván García</em:developer>
 				<em:contributor>Hồ Ngọc Đức</em:contributor>
+				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
 			</Description>
 		</em:localized>
 		
@@ -31,6 +32,7 @@
 				<em:creator>Nguyễn Xuân Minh</em:creator>
 				<em:developer>Ivan Garcia</em:developer>
 				<em:contributor>Hồ Ngọc Đức</em:contributor>
+				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
 			</Description>
 		</em:localized>
 		
@@ -58,6 +60,42 @@
 				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
 				<em:minVersion>1.1a</em:minVersion>
 				<em:maxVersion>2.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Mozilla Prism -->
+		<em:targetApplication>
+			<Description>
+				<em:id>prism@developer.mozilla.org</em:id>
+				<em:minVersion>0.8</em:minVersion>
+				<em:maxVersion>1.0.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Flock -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+				<em:minVersion>1.2.0</em:minVersion>
+				<em:maxVersion>2.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Songbird -->
+		<em:targetApplication>
+			<Description>
+				<em:id>songbird@songbirdnest.com</em:id>
+				<em:minVersion>0.2.5</em:minVersion>
+				<em:maxVersion>0.8.0pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Mozilla Toolkit -->
+		<em:targetApplication>
+			<Description>
+				<em:id>toolkit@mozilla.org</em:id>
+				<em:minVersion>1.8.*</em:minVersion>
+				<em:maxVersion>1.9.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
