@@ -147,8 +147,13 @@ else
   rm ./files
 fi
 
-# remove the working files
-rm -rf $TMP_DIR
+if [ $CLEAN_UP = 0 ]; then
+  echo
+else
+  echo "Cleanup..."
+  # remove the working files
+  rm -rf $TMP_DIR
+fi
 echo "Done!"
 
 $AFTER_BUILD
