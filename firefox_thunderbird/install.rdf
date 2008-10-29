@@ -54,6 +54,24 @@
 			</Description>
 		</em:targetApplication>
 		
+		<!-- Mozilla Sunbird -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{718e30fb-e89b-41dd-9da7-e25a45638b28}</em:id>
+				<em:minVersion>0.4a1</em:minVersion>
+				<em:maxVersion>1.0pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Mozilla Application Suite -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
+				<em:minVersion>1.8a</em:minVersion>
+				<em:maxVersion>1.8+</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
 		<!-- SeaMonkey -->
 		<em:targetApplication>
 			<Description>
