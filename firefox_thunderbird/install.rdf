@@ -41,7 +41,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0a1</em:minVersion>
-				<em:maxVersion>3.7a5pre</em:maxVersion>
+				<em:maxVersion>3.7a6pre</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -104,7 +104,7 @@
 			<Description>
 				<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
 				<em:minVersion>1.2.0</em:minVersion>
-				<em:maxVersion>2.0.*</em:maxVersion>
+				<em:maxVersion>2.5.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -113,7 +113,7 @@
 			<Description>
 				<em:id>songbird@songbirdnest.com</em:id>
 				<em:minVersion>0.2.5</em:minVersion>
-				<em:maxVersion>1.0.*</em:maxVersion>
+				<em:maxVersion>1.8.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -122,7 +122,7 @@
 			<Description>
 				<em:id>{ee53ece0-255c-4cc6-8a7e-81a8b6e5ba2c}</em:id>
 				<em:minVersion>0.4</em:minVersion>
-				<em:maxVersion>0.7</em:maxVersion>
+				<em:maxVersion>0.8</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
