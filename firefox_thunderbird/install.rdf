@@ -81,6 +81,15 @@
 			</Description>
 		</em:targetApplication>
 		
+		<!-- Mozilla Prism -->
+		<em:targetApplication>
+			<Description>
+				<em:id>prism@developer.mozilla.org</em:id>
+				<em:minVersion>0.8</em:minVersion>
+				<em:maxVersion>1.0.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
 		<!-- SeaMonkey -->
 		<em:targetApplication>
 			<Description>
@@ -90,12 +99,21 @@
 			</Description>
 		</em:targetApplication>
 		
-		<!-- Mozilla Prism -->
+		<!-- Netscape Navigator -->
 		<em:targetApplication>
 			<Description>
-				<em:id>prism@developer.mozilla.org</em:id>
-				<em:minVersion>0.8</em:minVersion>
-				<em:maxVersion>1.0.0.*</em:maxVersion>
+				<em:id>{3db10fab-e461-4c80-8b97-957ad5f8ea47}</em:id>
+				<em:minVersion>9.0a</em:minVersion>
+				<em:maxVersion>9.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Netscape Messenger -->
+		<em:targetApplication>
+			<Description>
+				<em:id>messenger@netscape.com</em:id>
+				<em:minVersion>9.0a1</em:minVersion>
+				<em:minVersion>9.0.0</em:minVersion>
 			</Description>
 		</em:targetApplication>
 		
