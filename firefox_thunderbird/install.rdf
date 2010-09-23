@@ -9,6 +9,7 @@
 		<em:contributor>Hồ Ngọc Đức</em:contributor>
 		<em:description>Enables spell-checking in Vietnamese, using a wordlist based on Hồ Ngọc Đức’s Free Vietnamese Dictionary Project.</em:description>
 		<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+		<em:unpack>true</em:unpack>
 		
 		<!-- Spanish -->
 		<em:localized>
