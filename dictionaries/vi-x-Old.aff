@@ -1,7 +1,7 @@
 SET UTF-8
 TRY naohiugtcedmylrbvskpxqfjwzNAOHIUGTCEDMYLRBVSKPXQFJWZ-
 
-MAP 39
+MAP 38
 MAP ảã
 MAP ẩẫ
 MAP ẳẵ
@@ -23,7 +23,6 @@ MAP (iệu)(ịu)(ựu)
 MAP aàảãáạ
 MAP ăằẳẵắặ
 MAP âầẩẫấậ
-MAP dđ
 MAP eèẻẽéẹ
 MAP êềểễếệ
 MAP iìỉĩíị
@@ -42,9 +41,11 @@ MAP óóỏeèéẻ
 MAP úùủụyýỳỷỵ
 MAP uưoờớỡởợ
 
-REP 18
+REP 20
 REP dz d
 REP ch tr
+REP d đ
+REP đ d
 REP d gi
 REP f ph
 REP g gh
