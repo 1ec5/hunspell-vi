@@ -114,7 +114,7 @@
 			<Description>
 				<em:id>messenger@netscape.com</em:id>
 				<em:minVersion>9.0a1</em:minVersion>
-				<em:minVersion>9.0.0</em:minVersion>
+				<em:maxVersion>9.0.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
