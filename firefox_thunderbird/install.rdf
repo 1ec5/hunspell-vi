@@ -42,7 +42,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0a1</em:minVersion>
-				<em:maxVersion>6.0a1</em:maxVersion>
+				<em:maxVersion>6.0a2</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -87,7 +87,7 @@
 			<Description>
 				<em:id>prism@developer.mozilla.org</em:id>
 				<em:minVersion>0.8</em:minVersion>
-				<em:maxVersion>1.0.0.*</em:maxVersion>
+				<em:maxVersion>1.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -132,7 +132,7 @@
 			<Description>
 				<em:id>songbird@songbirdnest.com</em:id>
 				<em:minVersion>0.2.5</em:minVersion>
-				<em:maxVersion>1.9.*</em:maxVersion>
+				<em:maxVersion>1.11.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -150,7 +150,7 @@
 			<Description>
 				<em:id>toolkit@mozilla.org</em:id>
 				<em:minVersion>1.8.1</em:minVersion>
-				<em:maxVersion>2.0.*</em:maxVersion>
+				<em:maxVersion>5.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
