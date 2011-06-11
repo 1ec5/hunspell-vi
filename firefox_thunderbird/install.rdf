@@ -150,7 +150,7 @@
 			<Description>
 				<em:id>toolkit@mozilla.org</em:id>
 				<em:minVersion>1.8.1</em:minVersion>
-				<em:maxVersion>6.0.*</em:maxVersion>
+				<em:maxVersion>7.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
