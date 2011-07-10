@@ -42,7 +42,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0a1</em:minVersion>
-				<em:maxVersion>8.0a1</em:maxVersion>
+				<em:maxVersion>8.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -82,7 +82,7 @@
 			</Description>
 		</em:targetApplication>
 		
-		<!-- Mozilla Prism -->
+		<!-- Mozilla Labs Prism -->
 		<em:targetApplication>
 			<Description>
 				<em:id>prism@developer.mozilla.org</em:id>
