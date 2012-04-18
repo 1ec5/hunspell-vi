@@ -9,5 +9,5 @@ This spellchecker for OpenOffice was based on the Vietnamese Dictionary list fro
 Project site: http://code.google.com/p/hunspell-spellcheck-vi/
 OpenOffice in Vietnamese:  http://vi.openoffice.org/
 
-This spellchecker is released with  GPLv2 license
+This spellchecker is released with  GPLv3 license
 Visit http://www.gnu.org/licenses/ for more information

@@ -9,7 +9,7 @@ Từ điển kiểm tra chính tả OpenOffice.org này dựa vào danh sách T�
 Trang chủ dự án: http://code.google.com/p/hunspell-spellcheck-vi/
 OpenOffice tiếng Việt:  http://vi.openoffice.org/
 
-Từ điển kiểm tra chính tả này được phát hành dưới Giấy Phép Công Cộng GNU (GPL) phiên bản 2.
+Từ điển kiểm tra chính tả này được phát hành dưới Giấy Phép Công Cộng GNU (GPL) phiên bản 3.
 Xem:
 
 http://www.gnu.org/licenses/
