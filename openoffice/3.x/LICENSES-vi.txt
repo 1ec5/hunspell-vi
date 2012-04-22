@@ -2,7 +2,7 @@ TỪ ĐIỂN KIỂM TRA CHÍNH TẢ TIẾNG VIỆT CHO OPENOFFICE phiên bản S
 
 Tác giả:
 Ivan Garcia <capiscuas@gmail.com>
-Nguyễn Xuân Minh <mxn@zoomtown.com>
+Nguyễn Xuân Minh <mxn@1ec5.org>
 
 Từ điển kiểm tra chính tả OpenOffice.org này dựa vào danh sách Từ Điển Tiếng Việt của Hồ Ngọc Đức.
 
