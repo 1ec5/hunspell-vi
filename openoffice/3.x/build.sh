@@ -26,8 +26,8 @@ for ROOT_FILE in $ROOT_FILES ; do
 done
 
 cp META-INF/manifest.xml $TMP_DIR/META-INF/manifest.xml
-cp ../../dictionaries/vi-x-New.dic $TMP_DIR/dictionaries/vi_VN.dic 
-cp ../../dictionaries/vi-x-New.aff  $TMP_DIR/dictionaries/vi_VN.aff 
+cp ../../dictionaries/vi-DauMoi.dic $TMP_DIR/dictionaries/vi_VN.dic 
+cp ../../dictionaries/vi-DauMoi.aff  $TMP_DIR/dictionaries/vi_VN.aff 
 cp ../../dictionaries/CHANGELOG  $TMP_DIR/dictionaries/CHANGELOG
 
 cd $TMP_DIR
