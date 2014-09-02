@@ -5,7 +5,7 @@
 # Kieu, you can generate letter frequencies on that file with the following
 # command:
 #   python normalize.py -f kieu.txt -i -w | sed 's/./&~/g' | tr '~' '\012' | \
-#       sort -n | uniq -c | sort -n | tail -r -50
+#       sort -n | uniq -c | sort -nr
 
 import sys, re
 
@@ -72,8 +72,7 @@ def main():
         if is_file:
             is_file = False
             f = file(arg, "r")
-            lines = [unicode(line, charset) for line in f.readlines()]
-            src.extend(lines)
+            src.extend(unicode(line, charset) for line in f.readlines())
             f.close()
             continue
         
