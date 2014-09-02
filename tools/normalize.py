@@ -72,7 +72,8 @@ def main():
         if is_file:
             is_file = False
             f = file(arg, "r")
-            src += [unicode(line, charset) for line in f.readlines()]
+            lines = [unicode(line, charset) for line in f.readlines()]
+            src.extend(lines)
             f.close()
             continue
         
@@ -104,7 +105,7 @@ def main():
             print_help()
             continue
         
-        src += unicode(arg, charset) + " "
+        src.append(unicode(arg, charset))
     
     repls = ASCII_REPLS if is_ascii else VIET_REPLS
     for regex, repl in repls.iteritems():
