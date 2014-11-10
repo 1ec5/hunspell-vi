@@ -11,7 +11,7 @@ hunspell-vi
 </tr>
 <tr>
 <td>The Mozilla add-on features two dictionaries: one that prefers the traditional style of accent marks more common abroad (e.g., <i>xóa</i>), and one that prefers the reformed style more common in Vietnam (<i>xoá</i>). The OpenOffice add-on only includes the reformed dictionary.</td>
-<td>Tiện ích Mozilla cung cấp hai từ điển: một từ điển đặt dấu theo kiểu truyền thống và hải ngoại (e.g., <i>xóa</i>), còn từ điển kia tuân theo kiểu cải cách phổ biến hơn tại Việt Nam (<i>xoá</i>). Tiện ích OpenOffice chỉ cung cấp từ điển kiểu cải cách.</td>
+<td>Tiện ích Mozilla cung cấp hai từ điển: một từ điển đặt dấu theo kiểu truyền thống và hải ngoại (vd: <i>xóa</i>), còn từ điển kia tuân theo kiểu cải cách phổ biến hơn tại Việt Nam (<i>xoá</i>). Tiện ích OpenOffice chỉ cung cấp từ điển kiểu cải cách.</td>
 </tr>
 <tr>
 <td>The word lists are based on the <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">Free Vietnamese Dictionary Project</a> maintained by Hồ Ngọc Đức, with many corrections and additions. In contemporary Vietnamese, compound words consist of monosyllabic words joined by spaces. Without a statistical model, Hunspell is incapable of distinguishing the spaces inside compound words from those surrounding them. Therefore, the word lists do not attempt to cover compound words, only the monosyllabic words that can be compounded.</td>
