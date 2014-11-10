@@ -9,7 +9,7 @@ VAR_FILES="description.xml dictionaries.xcu LICENSES-vi.txt LICENSES-en.txt "
 #uncomment to debug
 #set -x
 
-. ../tools/version.sh
+. ../../tools/version.sh
 
 # remove any left-over files from previous build
 rm $APP_NAME.oxt
