@@ -30,7 +30,7 @@
 			<Description>
 				<em:locale>vi</em:locale>
 				<em:name>Từ điển tiếng Việt</em:name>
-				<em:description>Kiểm tra chính tả tiếng Việt, dùng danh sách từ dựa trên dự án Free Vietnamese Dictionary Project của Hồ Ngọc Đức.</em:description>
+				<em:description>Kiểm tra chính tả tiếng Việt theo một danh sách từ ngữ dựa trên Dự án Từ điển tiếng Việt miễn phí của Hồ Ngọc Đức.</em:description>
 				<em:creator>Nguyễn Xuân Minh</em:creator>
 				<em:developer>Ivan Garcia</em:developer>
 				<em:contributor>Hồ Ngọc Đức</em:contributor>
