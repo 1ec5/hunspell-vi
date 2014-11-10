@@ -6,7 +6,7 @@ Nguyễn Xuân Minh <mxn@1ec5.org>
 
 Từ điển kiểm tra chính tả OpenOffice.org này dựa vào danh sách Từ Điển Tiếng Việt của Hồ Ngọc Đức.
 
-Trang chủ dự án: http://code.google.com/p/hunspell-spellcheck-vi/
+Trang chủ dự án: https://github.com/1ec5/hunspell-vi
 OpenOffice tiếng Việt:  http://vi.openoffice.org/
 
 Từ điển kiểm tra chính tả này được phát hành dưới Giấy Phép Công Cộng GNU (GPL) phiên bản 3.

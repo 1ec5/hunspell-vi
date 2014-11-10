@@ -1,6 +1,6 @@
 The vi_VN.aff rules were improved by Ivan Garcia - capiscuas@gmail.com (Sept 2007)
 More Info about how to install the package in Openoffice and Firefox here: 
-http://code.google.com/p/hunspell-spellcheck-vi/
+https://github.com/1ec5/hunspell-vi
 
 ORIGINAL README:
 -----------------------------

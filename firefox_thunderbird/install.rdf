@@ -8,7 +8,7 @@
 		<em:developer>Ivan Garcia</em:developer>
 		<em:contributor>Hồ Ngọc Đức</em:contributor>
 		<em:description>Enables spell-checking in Vietnamese, using a wordlist based on Hồ Ngọc Đức’s Free Vietnamese Dictionary Project.</em:description>
-		<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+		<em:homepageURL>https://github.com/1ec5/hunspell-vi</em:homepageURL>
 		<em:unpack>true</em:unpack>
 		<em:type>64</em:type>
 		
@@ -21,7 +21,7 @@
 				<em:creator>Minh Nguyen</em:creator>
 				<em:developer>Iván García</em:developer>
 				<em:contributor>Hồ Ngọc Đức</em:contributor>
-				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+				<em:homepageURL>https://github.com/1ec5/hunspell-vi</em:homepageURL>
 			</Description>
 		</em:localized>
 		
@@ -34,7 +34,7 @@
 				<em:creator>Nguyễn Xuân Minh</em:creator>
 				<em:developer>Ivan Garcia</em:developer>
 				<em:contributor>Hồ Ngọc Đức</em:contributor>
-				<em:homepageURL>http://code.google.com/p/hunspell-spellcheck-vi/</em:homepageURL>
+				<em:homepageURL>https://github.com/1ec5/hunspell-vi</em:homepageURL>
 			</Description>
 		</em:localized>
 		
