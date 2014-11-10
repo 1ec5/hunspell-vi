@@ -37,12 +37,9 @@ CLEAN_UP=          # delete the jar / "files" when done?       (1/0)
 ROOT_FILES=        # put these files in root of xpi (space separated list of leaf filenames)
 ROOT_DIRS=         # ...and these directories       (space separated list)
 VAR_FILES=         # files that need variable substitution (space separated list)
-VERSION=           # version number (string)
 PRUNE_DIRS=	       # exclude files with these directories in their paths (space separated list)
 BEFORE_BUILD=      # run this before building       (bash command)
 AFTER_BUILD=       # ...and this after the build    (bash command)
-
-REV_NUM=`svnversion -n | cat`
 
 if [ -z $1 ]; then
   . ./config_build.sh
@@ -55,6 +52,8 @@ if [ -z $APP_NAME ]; then
   echo "Read comments at the beginning of this script for more info."
   exit;
 fi
+
+. ../tools/version.sh
 
 ROOT_DIR=`pwd`
 TMP_DIR=build
@@ -85,7 +84,7 @@ done
 echo "Copying various files to $TMP_DIR folder..."
 for DIR in $ROOT_DIRS; do
   cp -rpv $DIR $TMP_DIR/
-  rm -rf `find $TMP_DIR/ \( -name ".svn" -type d \) -o \( -name ".DS_Store" -type f \)`
+  rm -rf `find $TMP_DIR/ \( -name ".git" -type d \) -o \( -name ".svn" -type d \) -o \( -name ".DS_Store" -type f \)`
 #  mkdir $TMP_DIR/$DIR
 #  FILES="`find $DIR -path '*CVS*' -prune -o -type f -print | grep -v \~`"
 #  echo $FILES >> files
@@ -103,13 +102,11 @@ done
 cd $TMP_DIR
 
 if [ -n "$VAR_FILES" ]; then
-  REV_DATE=`date -u '+%A, %B %e, %Y'`
-  REV_YEAR=`date -u '+%Y'`
-  echo "Substituting variables for version $VERSION, build r$REV_NUM on \
+  echo "Substituting variables for version $VERSION, commit $BLOB on \
 $REV_DATE..."
   for VAR_FILE in $VAR_FILES; do
     if [ -f $VAR_FILE ]; then
-      perl -pi -e "s/\x24\x7BRev\x7D/$REV_NUM/" $VAR_FILE
+      perl -pi -e "s/\x24\x7BBlob\x7D/$BLOB/" $VAR_FILE
       perl -pi -e "s/\x24\x7BVersion\x7D/$VERSION/" $VAR_FILE
       perl -pi -e "s/\x24\x7BDate\x7D/$REV_DATE/" $VAR_FILE
       perl -pi -e "s/\x24\x7BYear\x7D/$REV_YEAR/" $VAR_FILE

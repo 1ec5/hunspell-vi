@@ -2,14 +2,14 @@
 
 ROOT_DIR=`pwd`
 TMP_DIR=build
-REV_NUM=`svn info ../../dictionaries/ -R |grep '^Last Changed Rev'|sort -n|head -1|cut -f 4 -d" "`
-VERSION=1.0.$REV_NUM
 APP_NAME=vi_spellchecker_OOo3
 
 ROOT_FILES="description.xml dictionaries.xcu LICENSES-vi.txt LICENSES-en.txt "
 VAR_FILES="description.xml dictionaries.xcu LICENSES-vi.txt LICENSES-en.txt "
 #uncomment to debug
 #set -x
+
+. ../tools/version.sh
 
 # remove any left-over files from previous build
 rm $APP_NAME.oxt
@@ -33,9 +33,7 @@ cp ../../dictionaries/CHANGELOG  $TMP_DIR/dictionaries/CHANGELOG
 cd $TMP_DIR
 
 if [ -n "$VAR_FILES" ]; then
-  REV_DATE=`date -u '+%A, %B %e, %Y'`
-  REV_YEAR=`date -u '+%Y'`
-  echo "Substituting variables for version $VERSION, build r$REV_NUM on \
+  echo "Substituting variables for version $VERSION, commit $BLOB on \
 $REV_DATE..."
   for VAR_FILE in $VAR_FILES; do
     if [ -f $VAR_FILE ]; then
