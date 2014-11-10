@@ -42,7 +42,7 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>2.0a1</em:minVersion>
+				<em:minVersion>18.0a1</em:minVersion>
 				<em:maxVersion>37.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
@@ -51,26 +51,8 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
-				<em:minVersion>2.0a1</em:minVersion>
+				<em:minVersion>18.0a1</em:minVersion>
 				<em:maxVersion>37.0</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Mozilla Sunbird -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{718e30fb-e89b-41dd-9da7-e25a45638b28}</em:id>
-				<em:minVersion>0.4a1</em:minVersion>
-				<em:maxVersion>5.0b2pre</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Mozilla Application Suite -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
-				<em:minVersion>1.8a</em:minVersion>
-				<em:maxVersion>1.8+</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -78,26 +60,17 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
-				<em:minVersion>0.7</em:minVersion>
+				<em:minVersion>18.0a1</em:minVersion>
 				<em:maxVersion>37.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
 		<!-- Mozilla Fennec Native -->
-		<!--<em:targetApplication>
-			<Description>
-				<em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
-				<em:minVersion>10.0a1</em:minVersion>
-				<em:maxVersion>37.0</em:maxVersion>
-			</Description>
-		</em:targetApplication>-->
-		
-		<!-- Mozilla Labs Prism -->
 		<em:targetApplication>
 			<Description>
-				<em:id>prism@developer.mozilla.org</em:id>
-				<em:minVersion>0.8</em:minVersion>
-				<em:maxVersion>1.0.*</em:maxVersion>
+				<em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+				<em:minVersion>18.0a1</em:minVersion>
+				<em:maxVersion>37.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -105,53 +78,8 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
-				<em:minVersion>1.0a</em:minVersion>
+				<em:minVersion>2.15a1</em:minVersion>
 				<em:maxVersion>2.34</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Netscape Navigator -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{3db10fab-e461-4c80-8b97-957ad5f8ea47}</em:id>
-				<em:minVersion>9.0a</em:minVersion>
-				<em:maxVersion>9.0.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Netscape Messenger -->
-		<em:targetApplication>
-			<Description>
-				<em:id>messenger@netscape.com</em:id>
-				<em:minVersion>9.0a1</em:minVersion>
-				<em:maxVersion>9.0.0</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Flock -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
-				<em:minVersion>1.2.0</em:minVersion>
-				<em:maxVersion>2.6.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Songbird -->
-		<em:targetApplication>
-			<Description>
-				<em:id>songbird@songbirdnest.com</em:id>
-				<em:minVersion>0.2.5</em:minVersion>
-				<em:maxVersion>2.3.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<!-- Spicebird -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{ee53ece0-255c-4cc6-8a7e-81a8b6e5ba2c}</em:id>
-				<em:minVersion>0.4</em:minVersion>
-				<em:maxVersion>0.8</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		
@@ -159,7 +87,7 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
-				<em:minVersion>0.1.3</em:minVersion>
+				<em:minVersion>1.4a1pre</em:minVersion>
 				<em:maxVersion>1.6a1pre</em:maxVersion>
 			</Description>
 		</em:targetApplication>
@@ -168,7 +96,7 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>toolkit@mozilla.org</em:id>
-				<em:minVersion>1.8.1</em:minVersion>
+				<em:minVersion>18.0a1</em:minVersion>
 				<em:maxVersion>37.0</em:maxVersion>
 			</Description>
 		</em:targetApplication>
