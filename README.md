@@ -14,8 +14,8 @@ hunspell-vi
 <td>Tiện ích Mozilla cung cấp hai từ điển: một từ điển đặt dấu theo kiểu truyền thống và hải ngoại (vd: <i>xóa</i>), còn từ điển kia tuân theo kiểu cải cách phổ biến hơn tại Việt Nam (<i>xoá</i>). Tiện ích OpenOffice chỉ cung cấp từ điển kiểu cải cách.</td>
 </tr>
 <tr>
-<td>The word lists are based on the <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">Free Vietnamese Dictionary Project</a> maintained by Hồ Ngọc Đức, with many corrections and additions. In contemporary Vietnamese, compound words consist of monosyllabic words joined by spaces. Without a statistical model, Hunspell is incapable of distinguishing the spaces inside compound words from those surrounding them. Therefore, the word lists do not attempt to cover compound words, only the monosyllabic words that can be compounded.</td>
-<td>Các danh sách từ ngữ dựa trên <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">Dự án Từ điển tiếng Việt miễn phí</a> do Hồ Ngọc Đức bảo quản và được chỉnh sửa và bổ sung nhiều. Trong tiếng Việt hiện đại, các từ ghép có những từ đơn âm được ghép lại bằng dấu cách. Vì thiếu một mô hình thống kê, Hunspell không có khả năng phân biệt những dấu cách bên trong từ ghép với những dấu cách nằm chung quanh từ ghép. Vì thế, các danh sách từ ngữ không có mục đích bao gồm các từ ghép, chỉ có các từ đơn âm có thể được ghép lại.</td>
+<td>The word lists do not attempt to cover compound words, only the monosyllabic words that can be compounded. In contemporary Vietnamese, compound words consist of monosyllabic words joined by spaces. Without a statistical model, Hunspell is incapable of distinguishing the spaces inside compound words from those surrounding them.</td>
+<td>Các danh sách từ ngữ không có mục đích bao gồm các từ ghép, chỉ có các từ đơn âm có thể được ghép lại. Trong tiếng Việt hiện đại, các từ ghép có những từ đơn âm được ghép lại bằng dấu cách. Vì thiếu một mô hình thống kê, Hunspell không có khả năng phân biệt những dấu cách bên trong từ ghép với những dấu cách nằm chung quanh từ ghép.</td>
 </tr>
 <tr>
 <td align="center" colspan="2"><h2>Mozilla, Firefox, Thunderbird…</h2></td>
@@ -30,5 +30,13 @@ hunspell-vi
 <tr>
 <td>For OpenOffice.org 3.<i>x</i> and above, install the <a href="http://extensions.openoffice.org/en/project/Vietnamese_SpellChecker">Vietnamese SpellChecker extension</a>. For OpenOffice.org 2.3, see the <a href="https://github.com/1ec5/hunspell-vi/wiki/Installation">installation instructions</a>.</td>
 <td>OpenOffice.org 3.<i>x</i> trở lên thì cài đặt <a href="http://extensions.openoffice.org/en/project/Vietnamese_SpellChecker">phần mở rộng Vietnamese SpellChecker</a>. OpenOffice.org 2.3 thì xem <a href="https://github.com/1ec5/hunspell-vi/wiki/C%C3%A0i-%C4%91%E1%BA%B7t">hướng dẫn cài đặt</a>.</td>
+</tr>
+<tr>
+<td align="center"><h2>History</h2></td>
+<td align="center"><h2>Lịch sử</h2></td>
+</tr>
+<tr>
+<td>This project has its origins in the [GNU Aspell](http://aspell.net/) 0.60 [Vietnamese Dictionary Package, version 0.01.1-1](http://ftp.gnu.org/gnu/aspell/dict/vi/aspell6-vi-0.01.1-1.tar.bz2), which include a word list from the <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">Free Vietnamese Dictionary Project</a> maintained by Hồ Ngọc Đức. The Aspell dictionary was ported to the [Hunspell](http://hunspell.sourceforge.net/) format by that project’s maintainer, László Németh. Ivan Garcia and Minh Nguyễn made many corrections and packaged the resulting dictionaries into add-ons for major Hunspell client software.</td>
+<td>Dự án này xuất phát từ [Gói Từ điển Việt ngữ, phiên bản 0.01.1-1](http://ftp.gnu.org/gnu/aspell/dict/vi/aspell6-vi-0.01.1-1.tar.bz2) dành cho [GNU Aspell](http://aspell.net/) 0.60, gói này cung cấp danh sách từ ngữ của <a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">Dự án Từ điển tiếng Việt miễn phí</a> do Hồ Ngọc Đức bảo quản. Từ điển Aspell được chuyển đổi qua dạng [Hunspell](http://hunspell.sourceforge.net/) bởi người bảo quản dự án đó, László Németh. Ivan Garcia và Nguyễn Xuân Minh chỉnh sửa nhiều thứ và gói lại các từ điển thành tiện ích cho những phần mềm phổ biến dùng Hunspell.</td>
 </tr>
 </table>
