@@ -1,0 +1,4 @@
+firefox_thunderbird/build
+firefox_thunderbird/files
+*.xpi
+*.oxt

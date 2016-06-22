@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Sequences</title>
+    <script type="text/javascript" src="http://avim.veneroida.com/pro/avim.js"></script>
+    <script type="text/javascript" src="http://mudim.googlecode.com/svn/trunk/mudim/mudim.js"></script>
+    <script type="text/javascript">
+    <!--
+        if (window.AVIMGlobalConfig) {
+            AVIMGlobalConfig.controlCSS =
+                "http://avim.veneroida.com/pro/avim.css";
+            AVIMGlobalConfig.onOff = 0;
+        }
+        
+        if (window.Mudim && parseInt(Mudim.method)) Mudim.Toggle();
+        
+        function clear() {
+            var startBox = document.getElementById("startTime");
+            var endBox = document.getElementById("endTime");
+            var diffBox = document.getElementById("diffTime");
+            var resultsBox = document.getElementById("results");
+            
+            startBox.value = endBox.value = diffBox.value = "";
+            resultsBox.value = "";
+            delete startBox.date, endBox.date, diffBox.date;
+        }
+        
+        function markTime() {
+            var startBox = document.getElementById("startTime");
+            var endBox = document.getElementById("endTime");
+            var diffBox = document.getElementById("diffTime");
+            
+            var date = new Date();
+            if (!startBox.value) {
+                startBox.value = date.toTimeString();
+                startBox.date = date;
+            }
+            endBox.value = date.toTimeString();
+            endBox.date = date;
+            diffBox.value = (endBox.date - startBox.date) / 1000;
+        }
+        
+        function convertToOld() {
+            clear();
+            markTime();
+            
+            var seqsBox = document.getElementById("sequences");
+            var chars = seqsBox.value.split("\n");
+            var seqs = {};
+            for each (var line in chars) {
+                line = line.split(/\t|\s\s+/);
+                seqs[line[0]] = line[1];
+            }
+            var wordsBox = document.getElementById("words");
+            var words = wordsBox.value.toLowerCase().split(/\s+/);
+            
+            var resultsBox = document.getElementById("results");
+            resultsBox.focus();
+            for each (var word in words) {
+                for each (var letter in word) {
+                    var seq = seqs[letter];
+                    if (!seq) {
+                        wordsBox.value = "Error on '" + word + "': '" + letter +
+                            "'.";
+                        return false;
+                    }
+                    for each (var pt in seq) {
+                        var e = document.createEvent("KeyEvents");
+                        e.initKeyEvent("keypress", true, true, null, false,
+                                       false, false, false, 0, pt.charCodeAt());
+                        resultsBox.dispatchEvent(e);
+                    }
+                }
+                resultsBox.value += "\n";
+                if (CHIM) CHIM.ClearBuffer();
+            }
+            
+            markTime();
+            return false;
+        }
+    -->
+    </script>
+</head>
+<body>
+    <h1>Sequences</h1>
+    <p>This tool automatically converts whitespace-delimited Vietnamese words from using the new-style placement of diacritics to the old style. In order for this tool to work, you&rsquo;ll need to copy a <a href="http://version.1ec5.org/viewvc.cgi/avim/trunk/chrome/content/avim.js?view=markup&amp;pathrev=24">recent version of <acronym title="Advanced Vietnamese Input Method">AVIM</acronym></a> to this directory, naming it <code>avim.js</code>.</p>
+    <p>Enter the original word list into the <label for="words">Words</label> textbox; then, press <label for="convert">Convert</label>, go run some errands, and come back to see the old-style equivalents in the <label for="results">Results</label> box. Each word in the list should be separated by whitespace. No words may contain more than one consecutive space.</p>
+    <form action="" method="get">
+        <label for="sequences">Sequences:</label><br />
+        <textarea id="sequences" readonly="readonly" rows="20" cols="80">a	a
+á	a'
+à	a`
+ã	a~
+ả	a?
+ạ	a.
+
+â	a^
+ấ	a^'
+ầ	a^`
+ẫ	a^~
+ẩ	a^?
+ậ	a^.
+
+ă	a(
+ắ	a('
+ằ	a(`
+ẵ	a(~
+ẳ	a(?
+ặ	a(.
+
+b	b
+
+c	c
+
+d	d
+
+đ	dd
+
+e	e
+é	e'
+è	e`
+ẽ	e~
+ẻ	e?
+ẹ	e.
+
+ê	e^
+ế	e^'
+ề	e^`
+ễ	e^~
+ể	e^?
+ệ	e^.
+
+f	f
+
+g	g
+
+h	h
+
+i	i
+í	i'
+ì	i`
+ĩ	i~
+ỉ	i?
+ị	i.
+
+j	j
+
+k	k
+
+l	l
+
+m	m
+
+n	n
+
+o	o
+ó	o'
+ò	o`
+õ	o~
+ỏ	o?
+ọ	o.
+
+ô	o^
+ố	o^'
+ồ	o^`
+ỗ	o^~
+ổ	o^?
+ộ	o^.
+
+ơ	o+
+ớ	o+'
+ờ	o+`
+ỡ	o+~
+ở	o+?
+ợ	o+.
+
+p	p
+
+q	q
+
+r	r
+
+s	s
+
+t	t
+
+u	u
+ú	u'
+ù	u`
+ũ	u~
+ủ	u?
+ụ	u.
+
+ư	u+
+ứ	u+'
+ừ	u+`
+ữ	u+~
+ử	u+?
+ự	u+.
+
+v	v
+
+w	w
+
+x	x
+
+y	y
+ý	y'
+ỳ	y`
+ỹ	y~
+ỷ	y?
+ỵ	y.
+
+z	z</textarea><br />
+        <label for="words">Words:</label><br />
+        <textarea id="words" rows="20" cols="80"></textarea><br />
+        <button id="convert" type="button" onclick="convertToOld();">Convert</button>
+        <hr />
+        <label for="result">Results:</label><br />
+        <textarea id="results" rows="20" cols="80"></textarea><br />
+        <label for="startTime">Start time:</label>&nbsp;<input id="startTime" type="text" />
+        <label for="endTime">End time:</label>&nbsp;<input id="endTime" type="text" />
+        <label for="diffTime">Time elapsed:</label>&nbsp;<input id="diffTime" type="text" />&nbsp;<abbr title="seconds">s</abbr>
+    </form>
+    <br />
+    <br />
+    <script type="text/javascript" src="avim.js"></script>
+</body>
+</html>
